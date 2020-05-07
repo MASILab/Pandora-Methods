@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/xtract/fsl_601/src/asl_mfree" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract/fsl_601/src/basil" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_cest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dwi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_qbold" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_t1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract/fsl_601/src/verbena" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract_docker/fsl_601/src/asl_mfree" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract_docker/fsl_601/src/basil" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract_docker/fsl_601/src/fabber_core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract_docker/fsl_601/src/fabber_models_asl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract_docker/fsl_601/src/fabber_models_cest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract_docker/fsl_601/src/fabber_models_dce" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract_docker/fsl_601/src/fabber_models_dsc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract_docker/fsl_601/src/fabber_models_dualecho" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract_docker/fsl_601/src/fabber_models_dwi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract_docker/fsl_601/src/fabber_models_qbold" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract_docker/fsl_601/src/fabber_models_t1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract_docker/fsl_601/src/oxford_asl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xtract_docker/fsl_601/src/verbena" vcs="Git" />
+  </component>
+</project>

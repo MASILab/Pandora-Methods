@@ -1,0 +1,216 @@
+AFQ clean,Callosum_Forceps_Major,5
+AFQ clean,Callosum_Forceps_Minor,6
+AFQ clean,Left_Arcuate,3
+AFQ clean,Left_Cingulum_Cingulate,7
+AFQ clean,Left_Cingulum_Hippocampus,
+AFQ clean,Left_Corticospinal,1
+AFQ clean,Left_IFOF,9
+AFQ clean,Left_ILF,11
+AFQ clean,Left_SLF,17
+AFQ clean,Left_Thalamic_Radiatio,
+AFQ clean,Left_Uncinate,19
+AFQ clean,Right_Arcuate,4
+AFQ clean,Right_Cingulum_Cingulate,8
+AFQ clean,Right_Cingulum_Hippocampus,
+AFQ clean,Right_Corticospinal,2
+AFQ clean,Right_IFOF,10
+AFQ clean,Right_ILF,12
+AFQ clean,Right_SLF,18
+AFQ clean,Right_Thalamic_Radiatio,
+AFQ clean,Right_Uncinate,20
+AFQ clipped,Callosum_Forceps_Major,5
+AFQ clipped,Callosum_Forceps_Minor,6
+AFQ clipped,Left_Arcuate,3
+AFQ clipped,Left_Cingulum_Cingulate,7
+AFQ clipped,Left_Cingulum_Hippocampus,
+AFQ clipped,Left_Corticospinal,1
+AFQ clipped,Left_IFOF,9
+AFQ clipped,Left_ILF,11
+AFQ clipped,Left_SLF,17
+AFQ clipped,Left_Thalamic_Radiatio,
+AFQ clipped,Left_Uncinate,19
+AFQ clipped,Right_Arcuate,4
+AFQ clipped,Right_Cingulum_Cingulate,8
+AFQ clipped,Right_Cingulum_Hippocampus,
+AFQ clipped,Right_Corticospinal,2
+AFQ clipped,Right_IFOF,10
+AFQ clipped,Right_ILF,12
+AFQ clipped,Right_SLF,18
+AFQ clipped,Right_Thalamic_Radiatio,
+AFQ clipped,Right_Uncinate,20
+Recobundles,AF_L,3
+Recobundles,AF_R,4
+Recobundles,AST_L,
+Recobundles,AST_R,
+Recobundles,CB_L,7
+Recobundles,CB_R,8
+Recobundles,CC_ForcepsMajor,5
+Recobundles,CC_ForcepsMinor,6
+Recobundles,CC,
+Recobundles,CCMid,
+Recobundles,CST_L,1
+Recobundles,CST_R,2
+Recobundles,CTT_L,
+Recobundles,CTT_R,
+Recobundles,EMC_L,
+Recobundles,EMC_R,
+Recobundles,FPT_L,
+Recobundles,FPT_R,
+Recobundles,IFOF_L,9
+Recobundles,IFOF_R,10
+Recobundles,ILF_L,11
+Recobundles,ILF_R,12
+Recobundles,MCP,
+Recobundles,MdLF_L,13
+Recobundles,MdLF_R,14
+Recobundles,MLF_L,
+Recobundles,MLF_R,
+Recobundles,ML_L,
+Recobundles,ML_R,
+Recobundles,OPT_L,
+Recobundles,OPT_R,
+Recobundles,OR_L,15
+Recobundles,OR_R,16
+Recobundles,PPT_L,
+Recobundles,PPT_R,
+Recobundles,SLF_L,17
+Recobundles,SLF_R,18
+Recobundles,STT_L,
+Recobundles,STT_R,
+Recobundles,TPT_L,
+Recobundles,TPT_R,
+Recobundles,UF_L,19
+Recobundles,UF_R,20
+Recobundles,V,
+TractSeg,AF_left,3
+TractSeg,AF_right,4
+TractSeg,ATR_left,
+TractSeg,ATR_right,
+TractSeg,CA,
+TractSeg,CC_1,
+TractSeg,CC_2,
+TractSeg,CC_3,
+TractSeg,CC_4,
+TractSeg,CC_5,
+TractSeg,CC_6,
+TractSeg,CC_7,
+TractSeg,CC,
+TractSeg,CG_left,7
+TractSeg,CG_right,8
+TractSeg,CST_left,1
+TractSeg,CST_right,2
+TractSeg,FPT_left,
+TractSeg,FPT_right,
+TractSeg,FX_left,
+TractSeg,FX_right,
+TractSeg,ICP_left,
+TractSeg,ICP_right,
+TractSeg,IFO_left,9
+TractSeg,IFO_right,10
+TractSeg,ILF_left,11
+TractSeg,ILF_right,12
+TractSeg,MCP,
+TractSeg,MLF_left,13
+TractSeg,MLF_right,14
+TractSeg,OR_left,15
+TractSeg,OR_right,16
+TractSeg,POPT_left,
+TractSeg,POPT_right,
+TractSeg,SCP_left,
+TractSeg,SCP_right,
+TractSeg,SLF_III_left,17
+TractSeg,SLF_III_right,18
+TractSeg,SLF_II_left,17
+TractSeg,SLF_II_right,18
+TractSeg,SLF_I_left,17
+TractSeg,SLF_I_right,18
+TractSeg,ST_FO_left,
+TractSeg,ST_FO_right,
+TractSeg,ST_OCC_left,
+TractSeg,ST_OCC_right,
+TractSeg,ST_PAR_left,
+TractSeg,ST_PAR_right,
+TractSeg,ST_POSTC_left,
+TractSeg,ST_POSTC_right,
+TractSeg,ST_PREC_left,
+TractSeg,ST_PREC_right,
+TractSeg,ST_PREF_left,
+TractSeg,ST_PREF_right,
+TractSeg,ST_PREM_left,
+TractSeg,ST_PREM_right,
+TractSeg,STR_left,
+TractSeg,STR_right,
+TractSeg,T_OCC_left,
+TractSeg,T_OCC_right,
+TractSeg,T_PAR_left,
+TractSeg,T_PAR_right,
+TractSeg,T_POSTC_left,
+TractSeg,T_POSTC_right,
+TractSeg,T_PREC_left,
+TractSeg,T_PREC_right,
+TractSeg,T_PREF_left,
+TractSeg,T_PREF_right,
+TractSeg,T_PREM_left,
+TractSeg,T_PREM_right,
+TractSeg,UF_left,19
+TractSeg,UF_right,20
+Tracula,fmajor_PP_avg33_mni_bbr,5
+Tracula,fminor_PP_avg33_mni_bbr,6
+Tracula,lh.atr_PP_avg33_mni_bbr,
+Tracula,lh.cab_PP_avg33_mni_bbr,
+Tracula,lh.ccg_PP_avg33_mni_bbr,7
+Tracula,lh.cst_AS_avg33_mni_bbr,1
+Tracula,lh.ilf_AS_avg33_mni_bbr,11
+Tracula,lh.slfp_PP_avg33_mni_bbr,17
+Tracula,lh.slft_PP_avg33_mni_bbr,17
+Tracula,lh.unc_AS_avg33_mni_bbr,19
+Tracula,rh.atr_PP_avg33_mni_bbr,
+Tracula,rh.cab_PP_avg33_mni_bbr,
+Tracula,rh.ccg_PP_avg33_mni_bbr,8
+Tracula,rh.cst_AS_avg33_mni_bbr,2
+Tracula,rh.ilf_AS_avg33_mni_bbr,12
+Tracula,rh.slfp_PP_avg33_mni_bbr,18
+Tracula,rh.slft_PP_avg33_mni_bbr,18
+Tracula,rh.unc_AS_avg33_mni_bbr,20
+Xtract,ac,
+Xtract,af_l,3
+Xtract,af_r,4
+Xtract,ar_l,
+Xtract,ar_r,
+Xtract,atr_l,
+Xtract,atr_r,
+Xtract,cbd_l,7
+Xtract,cbd_r,8
+Xtract,cbp_l,
+Xtract,cbp_r,
+Xtract,cbt_l,
+Xtract,cbt_r,
+Xtract,cst_l,1
+Xtract,cst_r,2
+Xtract,fa_l,
+Xtract,fa_r,
+Xtract,fma,5
+Xtract,fm,6
+Xtract,fx_l,
+Xtract,fx_r,
+Xtract,fo_l,9
+Xtract,fo_r,10
+Xtract,lf_l,11
+Xtract,lf_r,12
+Xtract,mcp,
+Xtract,mdlf_l,13
+Xtract,mdlf_r,14
+Xtract,or_l,15
+Xtract,or_r,16
+Xtract,slf1_l,17
+Xtract,slf1_r,18
+Xtract,slf2_l,17
+Xtract,slf2_r,18
+Xtract,slf3_l,17
+Xtract,slf3_r,18
+Xtract,str_l,
+Xtract,str_r,
+Xtract,uf_l,19
+Xtract,uf_r,20
+Xtract,vof_l,
+Xtract,vof_r,

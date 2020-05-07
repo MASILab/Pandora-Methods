@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6158a8f5-3b8d-43b0-9f29-21fdc38b4ed3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/asl_mfree/asl_mfree.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/asl_mfree/asl_mfree.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/asl_mfree/asl_mfree_functions.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/asl_mfree/asl_mfree_functions.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/asl_mfree/asl_mfree_functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/asl_mfree/asl_mfree_functions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/asl_mfree/readoptions.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/asl_mfree/readoptions.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/asl_mfree/readoptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/asl_mfree/readoptions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/basil/basil.in" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/basil/basil.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/basil/basil_var.in" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/basil/basil_var.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/convergence.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/convergence.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/convergence.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/convergence.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/covariance_cache.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/covariance_cache.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/dist_gamma.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/dist_gamma.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/dist_gamma.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/dist_gamma.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/dist_mvn.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/dist_mvn.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/dist_mvn.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/dist_mvn.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/easylog.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/easylog.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/easylog.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/easylog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fabber_capi.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fabber_capi.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fabber_capi.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fabber_capi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fabber_core.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fabber_core.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fabber_core.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fabber_core.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fabber_main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fabber_main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fabber_var" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fabber_var" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fwdmodel.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fwdmodel.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fwdmodel.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fwdmodel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fwdmodel_linear.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fwdmodel_linear.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fwdmodel_linear.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fwdmodel_linear.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fwdmodel_poly.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fwdmodel_poly.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fwdmodel_poly.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/fwdmodel_poly.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/inference.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/inference.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/inference.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/inference.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/inference_nlls.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/inference_nlls.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/inference_nlls.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/inference_nlls.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/inference_vb.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/inference_vb.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/inference_vb.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/inference_vb.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/motioncorr.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/motioncorr.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/motioncorr.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/motioncorr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/mvn_tool/mvntool.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/mvn_tool/mvntool.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/noisemodel.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/noisemodel.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/noisemodel.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/noisemodel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/noisemodel_ar.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/noisemodel_ar.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/noisemodel_ar.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/noisemodel_ar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/noisemodel_white.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/noisemodel_white.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/noisemodel_white.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/noisemodel_white.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/priors.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/priors.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/run_context.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/run_context.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/rundata.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/rundata.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/rundata.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/rundata.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/rundata_array.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/rundata_array.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/rundata_array.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/rundata_array.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/rundata_newimage.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/rundata_newimage.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/rundata_newimage.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/rundata_newimage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/setup.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/setup.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/tools.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/tools.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/tools.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/tools.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/transforms.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_core/transforms.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/asl_models.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/asl_models.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/asl_models.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/asl_models.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fabber_client.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fabber_client.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_2compartment.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_2compartment.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_2compartment.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_2compartment.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_grase.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_grase.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_grase.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_grase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_multiphase.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_multiphase.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_multiphase.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_multiphase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_pvc.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_pvc.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_pvc.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_pvc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_quasar.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_quasar.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_quasar.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_quasar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_rest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_rest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_rest.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_rest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_satrecov.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_satrecov.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_satrecov.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_satrecov.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_satrecovdualfa.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_satrecovdualfa.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_satrecovdualfa.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_satrecovdualfa.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_turboquasar.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_turboquasar.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_turboquasar.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_asl/fwdmodel_asl_turboquasar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_cest/cest_models.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_cest/cest_models.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_cest/fabber_client.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_cest/fabber_client.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_cest/fwdmodel_cest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_cest/fwdmodel_cest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_cest/fwdmodel_cest.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_cest/fwdmodel_cest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_cest/spline_interpolator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_cest/spline_interpolator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_cest/spline_interpolator.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_cest/spline_interpolator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/dce_models.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/dce_models.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fabber_client.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fabber_client.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_2CXM.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_2CXM.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_2CXM.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_2CXM.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_2CXM_LLS.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_2CXM_LLS.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_2CXM_LLS.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_2CXM_LLS.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_AATH.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_AATH.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_AATH.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_AATH.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_CTU.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_CTU.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_CTU.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_CTU.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_CTU_LLS.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_CTU_LLS.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_CTU_LLS.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_CTU_LLS.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_ETM.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_ETM.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_ETM.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_ETM.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_ETM_LLS.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_ETM_LLS.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_ETM_LLS.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_ETM_LLS.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_LLS.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_LLS.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_LLS.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_LLS.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_Patlak.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_Patlak.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_Patlak.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_Patlak.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_tofts.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_tofts.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_tofts.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dce/fwdmodel_dce_tofts.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/dsc_models.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/dsc_models.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/dsc_models.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/dsc_models.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/fabber_client.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/fabber_client.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/fwdmodel_dsc.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/fwdmodel_dsc.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/fwdmodel_dsc.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/fwdmodel_dsc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/fwdmodel_dsc_cpi.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/fwdmodel_dsc_cpi.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/fwdmodel_dsc_cpi.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/fwdmodel_dsc_cpi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/spline_interpolator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/spline_interpolator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/spline_interpolator.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dsc/spline_interpolator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/dualecho_models.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/dualecho_models.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/dualecho_models.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/dualecho_models.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/fabber_client.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/fabber_client.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/fwdmodel_pcASL.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/fwdmodel_pcASL.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/fwdmodel_pcASL.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/fwdmodel_pcASL.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/fwdmodel_q2tips.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/fwdmodel_q2tips.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/fwdmodel_q2tips.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/fwdmodel_q2tips.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/fwdmodel_quipss2.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/fwdmodel_quipss2.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/fwdmodel_quipss2.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho/fwdmodel_quipss2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dwi/dwi_models.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dwi/dwi_models.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dwi/dwi_models.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dwi/dwi_models.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dwi/fabber_client.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dwi/fabber_client.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dwi/fwdmodel_dwi.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dwi/fwdmodel_dwi.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dwi/fwdmodel_dwi.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dwi/fwdmodel_dwi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dwi/fwdmodel_dwi_IVIM.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dwi/fwdmodel_dwi_IVIM.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dwi/fwdmodel_dwi_IVIM.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dwi/fwdmodel_dwi_IVIM.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_qbold/fabber_main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_qbold/fabber_main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_t1/fabber_client.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_t1/fabber_client.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_t1/fwdmodel_IR.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_t1/fwdmodel_IR.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_t1/fwdmodel_IR.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_t1/fwdmodel_IR.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_t1/fwdmodel_vfa.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_t1/fwdmodel_vfa.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_t1/fwdmodel_vfa.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_t1/fwdmodel_vfa.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_t1/t1_models.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_t1/t1_models.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/asl.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/asl.tcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/asl_calib.in" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/asl_calib.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/asl_file.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/asl_file.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/asl_functions.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/asl_functions.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/asl_functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/asl_functions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/asl_reg.in" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/asl_reg.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/oxford_asl.in" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/oxford_asl.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/quasil.in" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/quasil.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/readoptions.cc" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/readoptions.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/readoptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/readoptions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/toast.in" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/oxford_asl/toast.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract/fsl_601/src/verbena/verbena.in" beforeDir="false" afterPath="$PROJECT_DIR$/xtract/fsl_601/src/verbena/verbena.in" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/xtract/fsl_601/src/fabber_models_dualecho" />
+  </component>
+  <component name="ProjectId" id="1U7G2aFHJjBL9B7OxjU7dWeRNtw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/T1" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/T1" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tracula" />
+      <recent name="$PROJECT_DIR$/xtract" />
+      <recent name="$PROJECT_DIR$/tractseg" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/bedpostx" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.create_ALL_atlases">
+    <configuration name="create_ALL_atlases" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="preprocessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_ALL_atlases.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="create_atlas" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="preprocessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_atlas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="create_atlas_ACCRE_cmds" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="preprocessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_atlas_ACCRE_cmds.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="create_tracula_transform_cmds" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="preprocessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tracula" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracula/create_tracula_transform_cmds.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_apply_reg_T1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="preprocessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/T1/run_apply_reg_T1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.create_atlas" />
+      <item itemvalue="Python.create_tracula_transform_cmds" />
+      <item itemvalue="Python.create_atlas_ACCRE_cmds" />
+      <item itemvalue="Python.create_ALL_atlases" />
+      <item itemvalue="Python.run_apply_reg_T1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.create_ALL_atlases" />
+        <item itemvalue="Python.run_apply_reg_T1" />
+        <item itemvalue="Python.create_atlas_ACCRE_cmds" />
+        <item itemvalue="Python.create_atlas" />
+        <item itemvalue="Python.create_tracula_transform_cmds" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6158a8f5-3b8d-43b0-9f29-21fdc38b4ed3" name="Default Changelist" comment="" />
+      <created>1574700013814</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574700013814</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2717" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586187583741">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2717" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1586187583741" />
+    <state x="836" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1585835208354" />
+    <state x="3159" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1585153992734">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3159" y="311" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1585153992734" />
+    <state width="927" height="328" key="GridCell.Tab.0.bottom" timestamp="1586534833996">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="927" height="328" key="GridCell.Tab.0.bottom/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1586534833996" />
+    <state width="927" height="204" key="GridCell.Tab.0.bottom/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1585970042289" />
+    <state width="927" height="328" key="GridCell.Tab.0.center" timestamp="1586534833996">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="927" height="328" key="GridCell.Tab.0.center/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1586534833996" />
+    <state width="927" height="204" key="GridCell.Tab.0.center/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1585970042289" />
+    <state width="927" height="328" key="GridCell.Tab.0.left" timestamp="1586534833996">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="927" height="328" key="GridCell.Tab.0.left/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1586534833996" />
+    <state width="927" height="204" key="GridCell.Tab.0.left/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1585970042289" />
+    <state width="927" height="328" key="GridCell.Tab.0.right" timestamp="1586534833996">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="927" height="328" key="GridCell.Tab.0.right/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1586534833996" />
+    <state width="927" height="204" key="GridCell.Tab.0.right/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1585970042289" />
+    <state width="927" height="158" key="GridCell.Tab.1.bottom" timestamp="1586534833992">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="927" height="158" key="GridCell.Tab.1.bottom/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1586534833992" />
+    <state width="927" height="204" key="GridCell.Tab.1.bottom/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1585970042289" />
+    <state width="927" height="158" key="GridCell.Tab.1.center" timestamp="1586534833992">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="927" height="158" key="GridCell.Tab.1.center/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1586534833992" />
+    <state width="927" height="204" key="GridCell.Tab.1.center/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1585970042289" />
+    <state width="927" height="158" key="GridCell.Tab.1.left" timestamp="1586534833992">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="927" height="158" key="GridCell.Tab.1.left/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1586534833992" />
+    <state width="927" height="204" key="GridCell.Tab.1.left/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1585970042289" />
+    <state width="927" height="158" key="GridCell.Tab.1.right" timestamp="1586534833992">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="927" height="158" key="GridCell.Tab.1.right/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1586534833992" />
+    <state width="927" height="204" key="GridCell.Tab.1.right/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1585970042289" />
+    <state x="2818" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1585670818653">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2818" y="188" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1585670818653" />
+    <state x="3011" y="190" width="662" height="662" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583182167347">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3011" y="190" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1583182167347" />
+    <state x="1120" y="212" width="662" height="662" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1583093445600" />
+    <state x="2923" y="272" width="890" height="569" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586184317671">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2923" y="272" width="890" height="569" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1586184317671" />
+    <state x="2375" y="239" width="1190" height="794" key="dock-window-1" timestamp="1581366536379">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2375" y="239" width="1190" height="794" key="dock-window-1/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1581366536379" />
+    <state x="238" y="186" width="1190" height="794" key="dock-window-2" timestamp="1581366542960">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="238" y="186" width="1190" height="794" key="dock-window-2/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1581366542960" />
+    <state x="402" y="414" width="1190" height="794" key="dock-window-3" timestamp="1581366542960">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="402" y="414" width="1190" height="794" key="dock-window-3/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1581366542960" />
+    <state x="2576" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1585756535220">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2576" y="259" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1585756535220" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/t1_download.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
