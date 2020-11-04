@@ -10,37 +10,39 @@ def create_atlases_cmds(in_dir, out_dir, prefix, thresh, f):
             
     data = {}
     for sess in os.listdir(in_dir):
-        parts = sess.split('_')
-        sess_name = '_'.join(parts[2:])
+        if not sess.endswith('.bad'):
+            parts = sess.split('_')
+            sess_name = '_'.join(parts[2:])
 
-        proj = parts[0]
-        if parts[1] == 'Morgan' or parts[1] == 'Cutting':
-            subj = '_'.join(parts[1:5])
-        elif parts[1] == 'Taylor':
-            subj = '_'.join(parts[1:4])
-        else:
-            subj = parts[1]
+            proj = parts[0]
+            if parts[1] == 'Morgan' or parts[1] == 'Cutting':
+                subj = '_'.join(parts[1:5])
+            elif parts[1] == 'Taylor':
+                subj = '_'.join(parts[1:4])
+            else:
+                subj = parts[1]
 
-        include = True
-        if proj=='BLSA':
-            if not sess_name in blsa_subjs:
-                include = False
-        
-        if include:
-            if proj not in data:
-                data[proj] = {}
+            include = True
+            if proj=='BLSA':
+                if not sess_name in blsa_subjs:
+                    include = False
 
-            sess_dir = os.path.join(in_dir, sess)
+            if include:
+                if proj not in data:
+                    data[proj] = {}
 
-            for vol in os.listdir(sess_dir):
-                path = os.path.join(sess_dir, vol)
+                sess_dir = os.path.join(in_dir, sess)
 
-                if vol not in data[proj]:
-                    data[proj][vol] = [[], []]
+                for vol in os.listdir(sess_dir):
+                    if not vol.endswith('.bad'):
+                        path = os.path.join(sess_dir, vol)
 
-                if subj not in data[proj][vol][1]:
-                    data[proj][vol][1].append(subj)
-                    data[proj][vol][0].append(path)
+                        if vol not in data[proj]:
+                            data[proj][vol] = [[], []]
+
+                        if subj not in data[proj][vol][1]:
+                            data[proj][vol][1].append(subj)
+                            data[proj][vol][0].append(path)
 
 
     for project in data:
@@ -104,8 +106,8 @@ with open('create_atlas_cmd.txt', 'w') as f:
     if not os.path.isdir(out_dir):
         os.mkdir(out_dir)
 
-    create_atlases_cmds(lin_dir, out_dir, 'AFQcleanLinear', 0.5, f)
-    create_atlases_cmds(nonlin_dir, out_dir, 'AFQcleanNonlinear', 0.5, f)
+    create_atlases_cmds(lin_dir, out_dir, 'AFQLinear', 0.5, f)
+    create_atlases_cmds(nonlin_dir, out_dir, 'AFQNonlinear', 0.5, f)
 
     out_dir = '/nfs/masi/hansencb/t1_tract_data/Atlases/AFQclippedAtlases'
     lin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/AFQclippedLinear'
