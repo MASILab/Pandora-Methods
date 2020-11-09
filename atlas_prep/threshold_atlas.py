@@ -4,8 +4,8 @@ from pathlib import Path
 
 atlas_dir = Path('/nfs/masi/hansencb/t1_tract_data/AtlasesQA')
 # methods = ['AFQ', 'AFQclipped', 'Recobundles', 'TractSeg', 'Xtract', 'Tracula']
-methods = ['AFQ']
-
+# methods = ['AFQ']
+methods = ['Recobundles']
 for method in methods:
     method_dir = atlas_dir.joinpath(method)
     for fname in method_dir.iterdir():

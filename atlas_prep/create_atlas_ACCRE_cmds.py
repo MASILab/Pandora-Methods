@@ -58,63 +58,63 @@ def create_atlases_cmds(in_dir, out_dir, prefix, thresh, f):
                 f.write('{}\n'.format(cmd))
 
 
-with open('create_atlas_cmd.txt', 'w') as f:
-    out_dir = '/nfs/masi/hansencb/t1_tract_data/Atlases/TractSegAtlases'
-    lin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/TractSegLinear'
-    nonlin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/TractSegNonlinear'
-    
-    if not os.path.isdir(out_dir):
-        os.mkdir(out_dir)
-    
-    create_atlases_cmds(lin_dir, out_dir, 'TractSegLinear', 0.5, f)
-    create_atlases_cmds(nonlin_dir, out_dir, 'TractSegNonlinear', 0.5, f)
-    
-    out_dir = '/nfs/masi/hansencb/t1_tract_data/Atlases/RecobundlesAtlases'
+with open('/nfs/masi/hansencb/create_atlas_cmd.txt', 'w') as f:
+    # out_dir = '/nfs/masi/hansencb/t1_tract_data/AtlasesQA/TractSeg'
+    # lin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/TractSegLinear'
+    # nonlin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/TractSegNonlinear'
+    #
+    # if not os.path.isdir(out_dir):
+    #     os.mkdir(out_dir)
+    #
+    # create_atlases_cmds(lin_dir, out_dir, 'TractSegLinear', 0.5, f)
+    # create_atlases_cmds(nonlin_dir, out_dir, 'TractSegNonlinear', 0.5, f)
+    #
+    out_dir = '/nfs/masi/hansencb/t1_tract_data/AtlasesQA/RecoBundles'
     lin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/RecobundlesLinear'
     nonlin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/RecobundlesNonlinear'
-    
-    if not os.path.isdir(out_dir):
-        os.mkdir(out_dir)
-    
-    create_atlases_cmds(lin_dir, out_dir, 'RecobundlesLinear', 0.5, f)
-    create_atlases_cmds(nonlin_dir, out_dir, 'RecobundlesNonlinear', 0.5, f)
-    
-    out_dir = '/nfs/masi/hansencb/t1_tract_data/Atlases/XtractAtlases'
-    lin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/XtractLinear'
-    nonlin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/XtractNonlinear'
-    
-    if not os.path.isdir(out_dir):
-        os.mkdir(out_dir)
-    
-    create_atlases_cmds(lin_dir, out_dir, 'XtractLinear', 0.001, f)
-    create_atlases_cmds(nonlin_dir, out_dir, 'XtractNonlinear', 0.001, f)
-    
-    out_dir = '/nfs/masi/hansencb/t1_tract_data/Atlases/TraculaAtlases'
-    lin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/TraculaLinear'
-    nonlin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/TraculaNonlinear'
-    
-    if not os.path.isdir(out_dir):
-        os.mkdir(out_dir)
-    
-    create_atlases_cmds(lin_dir, out_dir, 'TraculaLinear', 0.5, f)
-    create_atlases_cmds(nonlin_dir, out_dir, 'TraculaNonlinear', 0.5, f)
-
-    out_dir = '/nfs/masi/hansencb/t1_tract_data/Atlases/AFQAtlases'
-    lin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/AFQcleanLinear'
-    nonlin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/AFQcleanNonlinear'
 
     if not os.path.isdir(out_dir):
         os.mkdir(out_dir)
 
-    create_atlases_cmds(lin_dir, out_dir, 'AFQLinear', 0.5, f)
-    create_atlases_cmds(nonlin_dir, out_dir, 'AFQNonlinear', 0.5, f)
+    create_atlases_cmds(lin_dir, out_dir, 'RecoBundlesLinear', 0.5, f)
+    create_atlases_cmds(nonlin_dir, out_dir, 'RecoBundlesNonlinear', 0.5, f)
+    #
+    # out_dir = '/nfs/masi/hansencb/t1_tract_data/AtlasesQA/Xtract'
+    # lin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/XtractLinear'
+    # nonlin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/XtractNonlinear'
+    #
+    # if not os.path.isdir(out_dir):
+    #     os.mkdir(out_dir)
+    #
+    # create_atlases_cmds(lin_dir, out_dir, 'XtractLinear', 0.001, f)
+    # create_atlases_cmds(nonlin_dir, out_dir, 'XtractNonlinear', 0.001, f)
+    #
+    # out_dir = '/nfs/masi/hansencb/t1_tract_data/AtlasesQA/Tracula'
+    # lin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/TraculaLinear'
+    # nonlin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/TraculaNonlinear'
+    #
+    # if not os.path.isdir(out_dir):
+    #     os.mkdir(out_dir)
+    #
+    # create_atlases_cmds(lin_dir, out_dir, 'TraculaLinear', 0.5, f)
+    # create_atlases_cmds(nonlin_dir, out_dir, 'TraculaNonlinear', 0.5, f)
 
-    out_dir = '/nfs/masi/hansencb/t1_tract_data/Atlases/AFQclippedAtlases'
-    lin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/AFQclippedLinear'
-    nonlin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/AFQclippedNonlinear'
+    # out_dir = '/nfs/masi/hansencb/t1_tract_data/AtlasesQA/AFQAtlases'
+    # lin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/AFQcleanLinear'
+    # nonlin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/AFQcleanNonlinear'
+    #
+    # if not os.path.isdir(out_dir):
+    #     os.mkdir(out_dir)
+    #
+    # create_atlases_cmds(lin_dir, out_dir, 'AFQLinear', 0.5, f)
+    # create_atlases_cmds(nonlin_dir, out_dir, 'AFQNonlinear', 0.5, f)
 
-    if not os.path.isdir(out_dir):
-        os.mkdir(out_dir)
-
-    create_atlases_cmds(lin_dir, out_dir, 'AFQclippedLinear', 0.5, f)
-    create_atlases_cmds(nonlin_dir, out_dir, 'AFQclippedNonlinear', 0.5, f)
+    # out_dir = '/nfs/masi/hansencb/t1_tract_data/AtlasesQA/AFQclipped'
+    # lin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/AFQclippedLinear'
+    # nonlin_dir = '/nfs/masi/hansencb/t1_tract_data/registered_data/AFQclippedNonlinear'
+    #
+    # if not os.path.isdir(out_dir):
+    #     os.mkdir(out_dir)
+    #
+    # create_atlases_cmds(lin_dir, out_dir, 'AFQclippedLinear', 0.5, f)
+    # create_atlases_cmds(nonlin_dir, out_dir, 'AFQclippedNonlinear', 0.5, f)

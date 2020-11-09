@@ -11,19 +11,33 @@ from shutil import move
 # data_dirs = ['/nfs/masi/hansencb/t1_tract_data/registered_data/AFQclippedNonlinear',
 #              '/nfs/masi/hansencb/t1_tract_data/registered_data/AFQclippedLinear']
 
-qa_file = '/nfs/masi/yangq6/WM_learning/tracula/QA_tract_label/tracula_data_QA.csv'
+# qa_file = '/nfs/masi/yangq6/WM_learning/tracula/QA_tract_label/tracula_data_QA.csv'
+#
+# data_dirs = ['/nfs/masi/hansencb/t1_tract_data/registered_data/TraculaNonlinear',
+#              '/nfs/masi/hansencb/t1_tract_data/registered_data/TraculaLinear']
 
-data_dirs = ['/nfs/masi/hansencb/t1_tract_data/registered_data/TraculaNonlinear',
-             '/nfs/masi/hansencb/t1_tract_data/registered_data/TraculaLinear']
+# qa_file = '/nfs/masi/yangq6/WM_learning/tractSeg/QA_tract_label/tractSeg_data_QA.csv'
+#
+# data_dirs = ['/nfs/masi/hansencb/t1_tract_data/registered_data/TractSegNonlinear',
+#              '/nfs/masi/hansencb/t1_tract_data/registered_data/TractSegLinear']
 
+# qa_file = '/nfs/masi/yangq6/WM_learning/xtract/QA_tract_label/xtract_data_QA.csv'
+#
+# data_dirs = ['/nfs/masi/hansencb/t1_tract_data/registered_data/XtractNonlinear',
+#              '/nfs/masi/hansencb/t1_tract_data/registered_data/XtractLinear']
+
+qa_file = '/nfs/masi/yangq6/WM_learning/recobundles/QA_tract_label/recobundles_data_QA.csv'
+
+data_dirs = ['/nfs/masi/hansencb/t1_tract_data/registered_data/RecobundlesNonlinear',
+             '/nfs/masi/hansencb/t1_tract_data/registered_data/RecobundlesLinear']
 
 with open(qa_file, 'r') as f:
     col_names = f.readline().strip().split(',')
 
-    #for Tracula
-    for i in range(len(col_names)):
-        if col_names[i].startswith('lh') or col_names[i].startswith('rh'):
-            col_names[i] = col_names[i][0:2] + '.' + col_names[i][3:]
+    # #for Tracula
+    # for i in range(len(col_names)):
+    #     if col_names[i].startswith('lh') or col_names[i].startswith('rh'):
+    #         col_names[i] = col_names[i][0:2] + '.' + col_names[i][3:]
 
     qa_data = {}
     for line in f.readlines():
@@ -41,6 +55,8 @@ for data_dir in data_dirs:
                 move(str(sess_dir), str(sess_dir)+'.bad')
         else:
             for bundle in qa_data[sess]:
-                bundle_path = sess_dir.joinpath(bundle+'.nii.gz')
+                # bundle_path = sess_dir.joinpath(bundle+'.nii.gz')
+                #FOR RECOBUNDLES
+                bundle_path = sess_dir.joinpath('streamlines_moved_{}__labels__recognized_orig.nii.gz'.format(bundle))
                 if bundle_path.is_file():
                     move(str(bundle_path), str(bundle_path)+'.bad')

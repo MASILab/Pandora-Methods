@@ -52,62 +52,62 @@ def create_atlases(out_dir, prefix):
         for k in keys:
             if k in data:
                 counts = data[k][1]
-                tract = '_'.join(k.split('_')[1:]).strip('.nii.gz')
-                tract = tract.replace('__labels__recognized_or', '')
+                tract = '_'.join(k.split('_')[1:]).replace('.nii.gz', '')
+                tract = tract.replace('__labels__recognized_orig', '')
                 tract = tract.replace('streamlines_moved_', '')
                 f.write('{},{},{},{},{},{}\n'.format(i,tract,counts[0],counts[1],counts[2],np.sum(counts)))
                 i+=1
 
-    all_out = os.path.join(out_dir, 'ALL')
-    if not os.path.isdir(all_out):
-        os.mkdir(all_out)
+    # all_out = os.path.join(out_dir, 'ALL')
+    # if not os.path.isdir(all_out):
+    #     os.mkdir(all_out)
+    #
+    # threads = []
+    # for fname in data:
+    #     out_path = os.path.join(all_out, fname)
+    #     paths = data[fname][0]
+    #     weights = np.array(data[fname][1])
+    #     weights = weights/np.sum(weights)
+    #     # weighted_average_vols(paths, out_path, weights)
+    #     if not os.path.isfile(out_path):
+    #         threads.append(Process(target=weighted_average_vols, args=(paths, out_path, weights)))
+    #         threads[-1].start()
+    #         if len(threads) == 4:
+    #             for thread in threads:
+    #                 thread.join()
+    #             threads = []
+    #
+    # for thread in threads:
+    #     thread.join()
 
-    threads = []
-    for fname in data:
-        out_path = os.path.join(all_out, fname)
-        paths = data[fname][0]
-        weights = np.array(data[fname][1])
-        weights = weights/np.sum(weights)
-        # weighted_average_vols(paths, out_path, weights)
-        if not os.path.isfile(out_path):
-            threads.append(Process(target=weighted_average_vols, args=(paths, out_path, weights)))
-            threads[-1].start()
-            if len(threads) == 8:
-                for thread in threads:
-                    thread.join()
-                threads = []
-
-    for thread in threads:
-        thread.join()
 
 
+# out_dir = '/nfs/masi/hansencb/t1_tract_data/AtlasesQA/TractSeg'
+#
+# create_atlases(out_dir, 'TractSegLinear')
+# create_atlases(out_dir, 'TractSegNonlinear')
+#
+out_dir = '/nfs/masi/hansencb/t1_tract_data/AtlasesQA/RecoBundles'
 
-out_dir = '/nfs/masi/hansencb/t1_tract_data/Atlases/TractSegAtlases'
-
-create_atlases(out_dir, 'TractSegLinear')
-create_atlases(out_dir, 'TractSegNonlinear')
-
-out_dir = '/nfs/masi/hansencb/t1_tract_data/Atlases/RecobundlesAtlases'
-
-create_atlases(out_dir, 'RecobundlesLinear')
-create_atlases(out_dir, 'RecobundlesNonlinear')
-
-out_dir = '/nfs/masi/hansencb/t1_tract_data/Atlases/XtractAtlases'
-
-create_atlases(out_dir, 'XtractLinear')
-create_atlases(out_dir, 'XtractNonlinear')
-
-out_dir = '/nfs/masi/hansencb/t1_tract_data/Atlases/TraculaAtlases'
-
-create_atlases(out_dir, 'TraculaLinear')
-create_atlases(out_dir, 'TraculaNonlinear')
-
-out_dir = '/nfs/masi/hansencb/t1_tract_data/Atlases/AFQAtlases'
-
-create_atlases(out_dir, 'AFQcleanLinear')
-create_atlases(out_dir, 'AFQcleanNonlinear')
-
-out_dir = '/nfs/masi/hansencb/t1_tract_data/Atlases/AFQclippedAtlases'
-
-create_atlases(out_dir, 'AFQclippedLinear')
-create_atlases(out_dir, 'AFQclippedNonlinear')
+create_atlases(out_dir, 'RecoBundlesLinear')
+create_atlases(out_dir, 'RecoBundlesNonlinear')
+#
+# out_dir = '/nfs/masi/hansencb/t1_tract_data/AtlasesQA/Xtract'
+#
+# create_atlases(out_dir, 'XtractLinear')
+# create_atlases(out_dir, 'XtractNonlinear')
+#
+# out_dir = '/nfs/masi/hansencb/t1_tract_data/AtlasesQA/Tracula'
+#
+# create_atlases(out_dir, 'TraculaLinear')
+# create_atlases(out_dir, 'TraculaNonlinear')
+#
+# out_dir = '/nfs/masi/hansencb/t1_tract_data/AtlasesQA/AFQ'
+#
+# create_atlases(out_dir, 'AFQLinear')
+# create_atlases(out_dir, 'AFQNonlinear')
+#
+# out_dir = '/nfs/masi/hansencb/t1_tract_data/AtlasesQA/AFQclipped'
+#
+# create_atlases(out_dir, 'AFQclippedLinear')
+# create_atlases(out_dir, 'AFQclippedNonlinear')
