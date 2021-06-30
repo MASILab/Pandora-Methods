@@ -196,9 +196,9 @@ def create_streamlines(data_dir_path, raw_data_path, mni_template,seed_counts=10
 
     for f_trk in job_dir_path.glob('*recognized_orig.trk'):
         try:
-            #input_tractogram = nib.streamlines.load(f_trk.as_posix())
-            #trk2tdi = dipy.tracking.utils.density_map(streamlines=input_tractogram.streamlines, affine=affine, vol_dims=data.shape[:3])
-            #save_nifti(fname=(derivatives_dir_path/(f_trk.stem + '.nii.gz')).as_posix(), data=trk2tdi, affine=affine)
+            input_tractogram = nib.streamlines.load(f_trk.as_posix())
+            trk2tdi = dipy.tracking.utils.density_map(streamlines=input_tractogram.streamlines, affine=affine, vol_dims=data.shape[:3])
+            save_nifti(fname=(derivatives_dir_path/(f_trk.stem + '.nii.gz')).as_posix(), data=trk2tdi, affine=affine)
             trk2tdi.inputs.in_file=f_trk.as_posix()
             trk2tdi.inputs.out_filename=(derivatives_dir_path/(f_trk.stem + '.nii.gz')).as_posix()
             trk2tdi.run()
